@@ -7,6 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1-jzseSKvVrZUszjWOXY2Uq25EZb0kgvF
 """
 
+!pip install tensorflow
+
+!pip install -q streamlit
+!npm install -g localtunnel
+
 import tensorflow as tf
 import numpy as np
 import cv2
